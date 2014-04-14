@@ -3,7 +3,7 @@ MAINTAINER DerMitch <michael@dermitch.de>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ADD http://192.168.2.21/01proxy /etc/apt/apt.conf.d/01proxy
+#ADD http://192.168.2.21/01proxy /etc/apt/apt.conf.d/01proxy
 
 # Make sure we have the latest and greatest libraries
 RUN apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y;
