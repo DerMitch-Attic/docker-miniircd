@@ -11,7 +11,7 @@ RUN apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y;
 # Install base tools
 RUN apt-get install -y --no-install-recommends python git ca-certificates
 
-# Now install and configure the registry
+# Now install the server
 RUN git clone https://github.com/jrosdahl/miniircd.git /app
 
 ADD motd /app/motd
