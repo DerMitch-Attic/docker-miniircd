@@ -25,7 +25,7 @@ Use it
 -----
 
 ```
-docker run --i -t -p 6667:6667 dermitch/miniircd)
+docker run -i -t -p 6667:6667 dermitch/miniircd
 ```
 
 Please note that debugging is enabled by default. If you don't need it, remove
